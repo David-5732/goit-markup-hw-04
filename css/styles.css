@@ -198,6 +198,10 @@ h1 {
   width: 264px;
   height: 112px;
   background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -269,6 +273,8 @@ h1 {
   background-color: #fff;
   width: calc((100% - 70) / 4);
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .title-third-section {
@@ -299,6 +305,32 @@ h1 {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+.item-icons-third {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 16px;
+  margin-top: 8px;
+}
+
+.icon-third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* section 4 */
 
 .container-four {
@@ -421,4 +453,40 @@ h1 {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+
+.footer-item {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 16px;
+  margin-top: 8px;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
